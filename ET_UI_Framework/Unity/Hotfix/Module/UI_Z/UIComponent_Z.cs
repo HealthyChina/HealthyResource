@@ -8,7 +8,7 @@ using UnityEngine.UI;
 namespace ETHotfix
 {
 	[ObjectSystem]
-	public class UiComponentAwakeSystem : AwakeSystem<UIComponent_Z>
+	public class UiComponent_ZAwakeSystem : AwakeSystem<UIComponent_Z>
 	{
 		public override void Awake(UIComponent_Z self)
 		{
@@ -17,7 +17,7 @@ namespace ETHotfix
 	}
 
 	[ObjectSystem]
-	public class UiComponentLoadSystem : LoadSystem<UIComponent_Z>
+	public class UiComponent_ZLoadSystem : LoadSystem<UIComponent_Z>
 	{
 		public override void Load(UIComponent_Z self)
 		{

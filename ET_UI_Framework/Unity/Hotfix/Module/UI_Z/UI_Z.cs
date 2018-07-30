@@ -5,7 +5,7 @@ using ETModel;
 namespace ETHotfix
 {
 	[ObjectSystem]
-	public class UiAwakeSystem : AwakeSystem<UI_Z, GameObject>
+	public class Ui_ZAwakeSystem : AwakeSystem<UI_Z, GameObject>
 	{
 		public override void Awake(UI_Z self, GameObject gameObject)
 		{
